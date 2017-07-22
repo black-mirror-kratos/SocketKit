@@ -1,0 +1,187 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Server"
+- "Client"
+provides-nominal:
+- "C14SocketKitMacOS6Server"
+- "C14SocketKitMacOS6Client"
+provides-member:
+- ["C14SocketKitMacOS6Server", ""]
+- ["C14SocketKitMacOS6Client", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Client"
+- "addrinfo"
+- "Bool"
+- "StringLiteralType"
+- "BooleanLiteralType"
+- "Int32"
+- "ClientSocketType"
+- "Server"
+- "IntegerLiteralType"
+- "FloatLiteralType"
+- "ServerSocketType"
+- "String"
+- "UnsafeMutablePointer"
+depends-member:
+- ["Ps9AnyObject", "applicationInDebugMode"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "maxNumberOfConnectionsBeforeAccept"]
+- ["Ps9AnyObject", "requestDescriptor"]
+- ["Ps9AnyObject", "serviceAddress"]
+- ["Ps9AnyObject", "servicePortNumber"]
+- ["Ps9AnyObject", "servinfo"]
+- ["Ps9AnyObject", "socketDescriptor"]
+- ["Ps9AnyObject", "status"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- ["Ps7CVarArg", "init"]
+- ["C14SocketKitMacOS6Client", "Bool"]
+- ["C14SocketKitMacOS6Client", "Int32"]
+- ["C14SocketKitMacOS6Client", "String"]
+- ["C14SocketKitMacOS6Client", "UnsafeMutablePointer"]
+- ["C14SocketKitMacOS6Client", "addrinfo"]
+- ["C14SocketKitMacOS6Client", "applicationInDebugMode"]
+- ["C14SocketKitMacOS6Client", "deinit"]
+- ["C14SocketKitMacOS6Client", "init"]
+- ["C14SocketKitMacOS6Client", "serviceAddress"]
+- ["C14SocketKitMacOS6Client", "servicePortNumber"]
+- ["C14SocketKitMacOS6Client", "servinfo"]
+- ["C14SocketKitMacOS6Client", "socketDescriptor"]
+- ["C14SocketKitMacOS6Client", "status"]
+- ["P14SocketKitMacOS16ClientSocketType", "applicationInDebugMode"]
+- ["P14SocketKitMacOS16ClientSocketType", "serviceAddress"]
+- ["P14SocketKitMacOS16ClientSocketType", "servicePortNumber"]
+- ["P14SocketKitMacOS16ClientSocketType", "servinfo"]
+- ["P14SocketKitMacOS16ClientSocketType", "socketDescriptor"]
+- ["P14SocketKitMacOS16ClientSocketType", "status"]
+- ["P14SocketKitMacOS16ClientSocketType", ""]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps9Equatable", "init"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "init"]
+- ["Vs5Int32", "deinit"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo19NSPasteboardReading", "init"]
+- ["PSo19NSPasteboardWriting", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["C14SocketKitMacOS6Server", "Bool"]
+- ["C14SocketKitMacOS6Server", "Int32"]
+- ["C14SocketKitMacOS6Server", "String"]
+- ["C14SocketKitMacOS6Server", "UnsafeMutablePointer"]
+- ["C14SocketKitMacOS6Server", "addrinfo"]
+- ["C14SocketKitMacOS6Server", "applicationInDebugMode"]
+- ["C14SocketKitMacOS6Server", "deinit"]
+- ["C14SocketKitMacOS6Server", "init"]
+- ["C14SocketKitMacOS6Server", "maxNumberOfConnectionsBeforeAccept"]
+- ["C14SocketKitMacOS6Server", "requestDescriptor"]
+- ["C14SocketKitMacOS6Server", "serviceAddress"]
+- ["C14SocketKitMacOS6Server", "servicePortNumber"]
+- ["C14SocketKitMacOS6Server", "servinfo"]
+- ["C14SocketKitMacOS6Server", "socketDescriptor"]
+- ["C14SocketKitMacOS6Server", "status"]
+- ["P14SocketKitMacOS16ServerSocketType", "applicationInDebugMode"]
+- ["P14SocketKitMacOS16ServerSocketType", "maxNumberOfConnectionsBeforeAccept"]
+- ["P14SocketKitMacOS16ServerSocketType", "requestDescriptor"]
+- ["P14SocketKitMacOS16ServerSocketType", "serviceAddress"]
+- ["P14SocketKitMacOS16ServerSocketType", "servicePortNumber"]
+- ["P14SocketKitMacOS16ServerSocketType", "servinfo"]
+- ["P14SocketKitMacOS16ServerSocketType", "socketDescriptor"]
+- ["P14SocketKitMacOS16ServerSocketType", "status"]
+- ["P14SocketKitMacOS16ServerSocketType", ""]
+- ["P14SocketKitMacOS10SocketBase", "applicationInDebugMode"]
+- ["P14SocketKitMacOS10SocketBase", "maxNumberOfConnectionsBeforeAccept"]
+- ["P14SocketKitMacOS10SocketBase", "requestDescriptor"]
+- ["P14SocketKitMacOS10SocketBase", "serviceAddress"]
+- ["P14SocketKitMacOS10SocketBase", "servicePortNumber"]
+- ["P14SocketKitMacOS10SocketBase", "servinfo"]
+- ["P14SocketKitMacOS10SocketBase", "socketDescriptor"]
+- ["P14SocketKitMacOS10SocketBase", "status"]
+- ["P14SocketKitMacOS10SocketBase", ""]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "Ps7CVarArg"
+- "C14SocketKitMacOS6Client"
+- "P14SocketKitMacOS16ClientSocketType"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Vs5Int32"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo19NSPasteboardReading"
+- "PSo19NSPasteboardWriting"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Sq"
+- "C14SocketKitMacOS6Server"
+- "P14SocketKitMacOS16ServerSocketType"
+- "P14SocketKitMacOS10SocketBase"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/Pawan/Development/SocketKit/SocketKit/SocketKitMacOS/SocketKitMacOS.h"
+- "/Users/Pawan/Development/SocketKit/SocketKit/build/SocketKit.build/Debug/SocketKitMacOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "720fc7ce577cd5c23e08d774427c8200"

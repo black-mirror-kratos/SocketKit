@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "3171791dfa4f3c505c624189b42bf746"
+build_time: [551698974, 667978000]
+inputs:
+  "/Users/Pawan/Development/SocketKit/SocketKit/Server/ViewController.swift": [551021441, 0]
+  "/Users/Pawan/Development/SocketKit/SocketKit/Server/AppDelegate.swift": [551698974, 0]

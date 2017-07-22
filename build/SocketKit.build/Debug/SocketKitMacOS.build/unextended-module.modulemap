@@ -1,0 +1,10 @@
+framework module SocketKitMacOS {
+  umbrella header "SocketKitMacOS.h"
+
+  export *
+  module * { export * }
+}
+
+module SocketKitMacOS.__Swift {
+    exclude header "SocketKitMacOS-Swift.h"
+}

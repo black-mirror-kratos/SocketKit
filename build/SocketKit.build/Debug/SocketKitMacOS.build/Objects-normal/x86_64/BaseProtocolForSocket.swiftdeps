@@ -1,0 +1,363 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BaseProtocolForSocket"
+provides-nominal:
+- "P14SocketKitMacOS21BaseProtocolForSocket"
+provides-member:
+- ["P14SocketKitMacOS21BaseProtocolForSocket", ""]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "closeSocket"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "getSockAddrDescription"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "|"
+- !private "NI_NUMERICSERV"
+- "BaseProtocolForSocket"
+- "Bool"
+- !private "NI_NUMERICHOST"
+- !private "CChar"
+- "String"
+- !private "NI_MAXSERV"
+- !private "IntegerLiteralType"
+- "Int32"
+- "addrinfo"
+- !private "NI_MAXHOST"
+- "UnsafeMutablePointer"
+- "DispatchQueue"
+- !private "FloatLiteralType"
+- !private "close"
+- !private "Int"
+- !private "socklen_t"
+- !private "=="
+- "AssignmentPrecedence"
+- "IOCommandHeader"
+- "sockaddr"
+- "UnsafePointer"
+- !private "getnameinfo"
+depends-member:
+- !private ["Sa", "IndexDistance"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "count"]
+- ["Sa", "deinit"]
+- !private ["Sa", "init"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "Bool"]
+- !private ["P14SocketKitMacOS21BaseProtocolForSocket", "CChar"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "DispatchQueue"]
+- !private ["P14SocketKitMacOS21BaseProtocolForSocket", "Int"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "Int32"]
+- !private ["P14SocketKitMacOS21BaseProtocolForSocket", "NI_MAXHOST"]
+- !private ["P14SocketKitMacOS21BaseProtocolForSocket", "NI_MAXSERV"]
+- !private ["P14SocketKitMacOS21BaseProtocolForSocket", "NI_NUMERICHOST"]
+- !private ["P14SocketKitMacOS21BaseProtocolForSocket", "NI_NUMERICSERV"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "String"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "UnsafeMutablePointer"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "UnsafePointer"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "addrinfo"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "applicationInDebugMode"]
+- !private ["P14SocketKitMacOS21BaseProtocolForSocket", "close"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "closeSocket"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "createSocketDescriptor"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "getSockAddrDescription"]
+- !private ["P14SocketKitMacOS21BaseProtocolForSocket", "getnameinfo"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "initializeServiceInfo"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "processDataQueue"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "serviceAddress"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "servicePortNumber"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "servinfo"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "setSocketOptions"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "setupWith"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "sockaddr"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "socketDescriptor"]
+- !private ["P14SocketKitMacOS21BaseProtocolForSocket", "socklen_t"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "status"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", ""]
+- !private ["Ps23BidirectionalCollection", "IndexDistance"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "count"]
+- !private ["Ps22BidirectionalIndexable", "init"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "IndexDistance"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "pointee"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "pointee"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "pointee"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "pointee"]
+- !private ["Ps17CustomReflectable", "IndexDistance"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "pointee"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "pointee"]
+- !private ["Ps25ExpressibleByArrayLiteral", "IndexDistance"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "pointee"]
+- ["P14SocketKitMacOS15IOCommandHeader", "Bool"]
+- !private ["P14SocketKitMacOS15IOCommandHeader", "CChar"]
+- ["P14SocketKitMacOS15IOCommandHeader", "DispatchQueue"]
+- !private ["P14SocketKitMacOS15IOCommandHeader", "Int"]
+- ["P14SocketKitMacOS15IOCommandHeader", "Int32"]
+- !private ["P14SocketKitMacOS15IOCommandHeader", "NI_MAXHOST"]
+- !private ["P14SocketKitMacOS15IOCommandHeader", "NI_MAXSERV"]
+- !private ["P14SocketKitMacOS15IOCommandHeader", "NI_NUMERICHOST"]
+- !private ["P14SocketKitMacOS15IOCommandHeader", "NI_NUMERICSERV"]
+- ["P14SocketKitMacOS15IOCommandHeader", "String"]
+- ["P14SocketKitMacOS15IOCommandHeader", "UnsafeMutablePointer"]
+- ["P14SocketKitMacOS15IOCommandHeader", "UnsafePointer"]
+- ["P14SocketKitMacOS15IOCommandHeader", "addrinfo"]
+- ["P14SocketKitMacOS15IOCommandHeader", "applicationInDebugMode"]
+- !private ["P14SocketKitMacOS15IOCommandHeader", "close"]
+- ["P14SocketKitMacOS15IOCommandHeader", "createSocketDescriptor"]
+- !private ["P14SocketKitMacOS15IOCommandHeader", "getnameinfo"]
+- ["P14SocketKitMacOS15IOCommandHeader", "initializeServiceInfo"]
+- ["P14SocketKitMacOS15IOCommandHeader", "processDataQueue"]
+- ["P14SocketKitMacOS15IOCommandHeader", "serviceAddress"]
+- ["P14SocketKitMacOS15IOCommandHeader", "servicePortNumber"]
+- ["P14SocketKitMacOS15IOCommandHeader", "servinfo"]
+- ["P14SocketKitMacOS15IOCommandHeader", "setSocketOptions"]
+- ["P14SocketKitMacOS15IOCommandHeader", "setupWith"]
+- ["P14SocketKitMacOS15IOCommandHeader", "sockaddr"]
+- ["P14SocketKitMacOS15IOCommandHeader", "socketDescriptor"]
+- !private ["P14SocketKitMacOS15IOCommandHeader", "socklen_t"]
+- ["P14SocketKitMacOS15IOCommandHeader", "status"]
+- ["P14SocketKitMacOS15IOCommandHeader", ""]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "count"]
+- !private ["Ps13IndexableBase", "init"]
+- !private ["Vs16IndexingIterator", "Element"]
+- ["Si", "deinit"]
+- !private ["Si", "init"]
+- ["Vs5Int32", "deinit"]
+- ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "IndexDistance"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps16MutableIndexable", "IndexDistance"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "count"]
+- !private ["Ps16MutableIndexable", "init"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "IndexDistance"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps21RandomAccessIndexable", "IndexDistance"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "count"]
+- !private ["Ps21RandomAccessIndexable", "init"]
+- !private ["Ps26RangeReplaceableCollection", "IndexDistance"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps25RangeReplaceableIndexable", "IndexDistance"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "count"]
+- !private ["Ps25RangeReplaceableIndexable", "init"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "pointee"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt32", "init"]
+- ["Vs5UInt8", "deinit"]
+- ["SP", "deinit"]
+- !private ["SP", "pointee"]
+- !private ["Ps15UnsignedInteger", "init"]
+- !private ["Ps14_ArrayProtocol", "IndexDistance"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps24_DestructorSafeContainer", "IndexDistance"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "pointee"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps8_Pointer", "pointee"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "pointee"]
+- ["VSC8sockaddr", "deinit"]
+- !private ["VSC8sockaddr", "sa_len"]
+depends-nominal:
+- "Sa"
+- "P14SocketKitMacOS21BaseProtocolForSocket"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- "P14SocketKitMacOS15IOCommandHeader"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- "Vs5Int32"
+- "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "Vs6UInt32"
+- "Vs5UInt8"
+- "SP"
+- !private "Ps15UnsignedInteger"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps8_Pointer"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- "VSC8sockaddr"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/Pawan/Development/SocketKit/SocketKit/SocketKitMacOS/SocketKitMacOS.h"
+- "/Users/Pawan/Development/SocketKit/SocketKit/build/SocketKit.build/Debug/SocketKitMacOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "5f04543fd01893ddbcb4fdd3a6d44151"

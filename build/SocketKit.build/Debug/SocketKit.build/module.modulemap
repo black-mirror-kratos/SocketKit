@@ -1,0 +1,6 @@
+framework module SocketKit {
+  umbrella header "SocketKit.h"
+
+  export *
+  module * { export * }
+}

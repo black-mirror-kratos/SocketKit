@@ -1,0 +1,79 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ServerSocketType"
+provides-nominal:
+- "P14SocketKitMacOS16ServerSocketType"
+provides-member:
+- ["P14SocketKitMacOS16ServerSocketType", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Swift"
+- "AcceptedClientSocketType"
+- "BaseProtocolForSocket"
+- "ServerSocketType"
+- "Int32"
+- "DispatchQueue"
+depends-member:
+- ["P14SocketKitMacOS24AcceptedClientSocketType", "Accept"]
+- ["P14SocketKitMacOS24AcceptedClientSocketType", "Bind"]
+- ["P14SocketKitMacOS24AcceptedClientSocketType", "DispatchQueue"]
+- ["P14SocketKitMacOS24AcceptedClientSocketType", "Int32"]
+- ["P14SocketKitMacOS24AcceptedClientSocketType", "Listen"]
+- ["P14SocketKitMacOS24AcceptedClientSocketType", "Swift"]
+- ["P14SocketKitMacOS24AcceptedClientSocketType", "connectionQueue"]
+- ["P14SocketKitMacOS24AcceptedClientSocketType", "maxNumberOfConnectionsBeforeAccept"]
+- ["P14SocketKitMacOS24AcceptedClientSocketType", "requestDescriptor"]
+- ["P14SocketKitMacOS24AcceptedClientSocketType", ""]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "Accept"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "Bind"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "DispatchQueue"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "Int32"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "Listen"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "Swift"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "connectionQueue"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "maxNumberOfConnectionsBeforeAccept"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "requestDescriptor"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", ""]
+- ["P14SocketKitMacOS15IOCommandHeader", "Accept"]
+- ["P14SocketKitMacOS15IOCommandHeader", "Bind"]
+- ["P14SocketKitMacOS15IOCommandHeader", "DispatchQueue"]
+- ["P14SocketKitMacOS15IOCommandHeader", "Int32"]
+- ["P14SocketKitMacOS15IOCommandHeader", "Listen"]
+- ["P14SocketKitMacOS15IOCommandHeader", "Swift"]
+- ["P14SocketKitMacOS15IOCommandHeader", "connectionQueue"]
+- ["P14SocketKitMacOS15IOCommandHeader", "maxNumberOfConnectionsBeforeAccept"]
+- ["P14SocketKitMacOS15IOCommandHeader", "requestDescriptor"]
+- ["P14SocketKitMacOS15IOCommandHeader", ""]
+- ["P14SocketKitMacOS16ServerSocketType", "Accept"]
+- ["P14SocketKitMacOS16ServerSocketType", "Bind"]
+- ["P14SocketKitMacOS16ServerSocketType", "DispatchQueue"]
+- ["P14SocketKitMacOS16ServerSocketType", "Int32"]
+- ["P14SocketKitMacOS16ServerSocketType", "Listen"]
+- ["P14SocketKitMacOS16ServerSocketType", "Swift"]
+- ["P14SocketKitMacOS16ServerSocketType", "connectionQueue"]
+- ["P14SocketKitMacOS16ServerSocketType", "maxNumberOfConnectionsBeforeAccept"]
+- ["P14SocketKitMacOS16ServerSocketType", "requestDescriptor"]
+- ["P14SocketKitMacOS16ServerSocketType", ""]
+depends-nominal:
+- "P14SocketKitMacOS24AcceptedClientSocketType"
+- "P14SocketKitMacOS21BaseProtocolForSocket"
+- "P14SocketKitMacOS15IOCommandHeader"
+- "P14SocketKitMacOS16ServerSocketType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/Pawan/Development/SocketKit/SocketKit/SocketKitMacOS/SocketKitMacOS.h"
+- "/Users/Pawan/Development/SocketKit/SocketKit/build/SocketKit.build/Debug/SocketKitMacOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "44469f746deebe0c704efd799077e358"

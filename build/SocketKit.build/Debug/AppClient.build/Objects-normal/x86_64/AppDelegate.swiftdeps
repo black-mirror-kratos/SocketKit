@@ -1,0 +1,592 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "C9AppClient11AppDelegate"
+provides-member:
+- ["C9AppClient11AppDelegate", ""]
+provides-dynamic-lookup:
+- "applicationWillTerminate"
+- "applicationDidFinishLaunching"
+- "mythread"
+depends-top-level:
+- "StringLiteralType"
+- "Notification"
+- !private "AppClient"
+- !private "NSEventMask"
+- !private "CGWindowID"
+- !private "print"
+- !private "NSEvent"
+- "NSObject"
+- "NSApplicationDelegate"
+- !private "Thread"
+- "AppDelegate"
+depends-member:
+- !private ["Ps9AnyObject", "AppClient"]
+- !private ["Ps9AnyObject", "AppDelegate"]
+- !private ["Ps9AnyObject", "CGWindowID"]
+- !private ["Ps9AnyObject", "NSEvent"]
+- !private ["Ps9AnyObject", "NSEventMask"]
+- !private ["Ps9AnyObject", "Thread"]
+- !private ["Ps9AnyObject", "addGlobalMonitorForEvents"]
+- ["Ps9AnyObject", "application"]
+- ["Ps9AnyObject", "applicationDidBecomeActive"]
+- ["Ps9AnyObject", "applicationDidChangeOcclusionState"]
+- ["Ps9AnyObject", "applicationDidChangeScreenParameters"]
+- ["Ps9AnyObject", "applicationDidFinishLaunching"]
+- ["Ps9AnyObject", "applicationDidHide"]
+- ["Ps9AnyObject", "applicationDidResignActive"]
+- ["Ps9AnyObject", "applicationDidUnhide"]
+- ["Ps9AnyObject", "applicationDidUpdate"]
+- ["Ps9AnyObject", "applicationDockMenu"]
+- ["Ps9AnyObject", "applicationOpenUntitledFile"]
+- ["Ps9AnyObject", "applicationShouldHandleReopen"]
+- ["Ps9AnyObject", "applicationShouldOpenUntitledFile"]
+- ["Ps9AnyObject", "applicationShouldTerminate"]
+- ["Ps9AnyObject", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["Ps9AnyObject", "applicationWillBecomeActive"]
+- ["Ps9AnyObject", "applicationWillFinishLaunching"]
+- ["Ps9AnyObject", "applicationWillHide"]
+- ["Ps9AnyObject", "applicationWillResignActive"]
+- ["Ps9AnyObject", "applicationWillTerminate"]
+- ["Ps9AnyObject", "applicationWillUnhide"]
+- ["Ps9AnyObject", "applicationWillUpdate"]
+- !private ["Ps9AnyObject", "detachNewThreadSelector"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "mythread"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "removeMonitor"]
+- !private ["Ps9AnyObject", "startCapturing"]
+- !private ["Ps9AnyObject", "windowNumber"]
+- ["Ps9AnyObject", ""]
+- !private ["C9AppClient9AppClient", "deinit"]
+- !private ["C9AppClient9AppClient", "init"]
+- !private ["C9AppClient9AppClient", "startCapturing"]
+- !private ["O9AppClient13AppClientType", "Tx"]
+- !private ["O9AppClient13AppClientType", "deinit"]
+- !private ["C9AppClient11AppDelegate", "AppClient"]
+- !private ["C9AppClient11AppDelegate", "AppDelegate"]
+- !private ["C9AppClient11AppDelegate", "CGWindowID"]
+- !private ["C9AppClient11AppDelegate", "NSEvent"]
+- !private ["C9AppClient11AppDelegate", "NSEventMask"]
+- ["C9AppClient11AppDelegate", "Notification"]
+- !private ["C9AppClient11AppDelegate", "Thread"]
+- ["C9AppClient11AppDelegate", "application"]
+- ["C9AppClient11AppDelegate", "applicationDidBecomeActive"]
+- ["C9AppClient11AppDelegate", "applicationDidChangeOcclusionState"]
+- ["C9AppClient11AppDelegate", "applicationDidChangeScreenParameters"]
+- ["C9AppClient11AppDelegate", "applicationDidFinishLaunching"]
+- ["C9AppClient11AppDelegate", "applicationDidHide"]
+- ["C9AppClient11AppDelegate", "applicationDidResignActive"]
+- ["C9AppClient11AppDelegate", "applicationDidUnhide"]
+- ["C9AppClient11AppDelegate", "applicationDidUpdate"]
+- ["C9AppClient11AppDelegate", "applicationDockMenu"]
+- ["C9AppClient11AppDelegate", "applicationOpenUntitledFile"]
+- ["C9AppClient11AppDelegate", "applicationShouldHandleReopen"]
+- ["C9AppClient11AppDelegate", "applicationShouldOpenUntitledFile"]
+- ["C9AppClient11AppDelegate", "applicationShouldTerminate"]
+- ["C9AppClient11AppDelegate", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["C9AppClient11AppDelegate", "applicationWillBecomeActive"]
+- ["C9AppClient11AppDelegate", "applicationWillFinishLaunching"]
+- ["C9AppClient11AppDelegate", "applicationWillHide"]
+- ["C9AppClient11AppDelegate", "applicationWillResignActive"]
+- ["C9AppClient11AppDelegate", "applicationWillTerminate"]
+- ["C9AppClient11AppDelegate", "applicationWillUnhide"]
+- ["C9AppClient11AppDelegate", "applicationWillUpdate"]
+- ["C9AppClient11AppDelegate", "deinit"]
+- ["C9AppClient11AppDelegate", "init"]
+- ["C9AppClient11AppDelegate", "mythread"]
+- !private ["C9AppClient11AppDelegate", "print"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "AppClient"]
+- !private ["Ps7CVarArg", "AppDelegate"]
+- !private ["Ps7CVarArg", "CGWindowID"]
+- !private ["Ps7CVarArg", "NSEvent"]
+- !private ["Ps7CVarArg", "NSEventMask"]
+- !private ["Ps7CVarArg", "Thread"]
+- !private ["Ps7CVarArg", "addGlobalMonitorForEvents"]
+- ["Ps7CVarArg", "application"]
+- ["Ps7CVarArg", "applicationDidBecomeActive"]
+- ["Ps7CVarArg", "applicationDidChangeOcclusionState"]
+- ["Ps7CVarArg", "applicationDidChangeScreenParameters"]
+- ["Ps7CVarArg", "applicationDidFinishLaunching"]
+- ["Ps7CVarArg", "applicationDidHide"]
+- ["Ps7CVarArg", "applicationDidResignActive"]
+- ["Ps7CVarArg", "applicationDidUnhide"]
+- ["Ps7CVarArg", "applicationDidUpdate"]
+- ["Ps7CVarArg", "applicationDockMenu"]
+- ["Ps7CVarArg", "applicationOpenUntitledFile"]
+- ["Ps7CVarArg", "applicationShouldHandleReopen"]
+- ["Ps7CVarArg", "applicationShouldOpenUntitledFile"]
+- ["Ps7CVarArg", "applicationShouldTerminate"]
+- ["Ps7CVarArg", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["Ps7CVarArg", "applicationWillBecomeActive"]
+- ["Ps7CVarArg", "applicationWillFinishLaunching"]
+- ["Ps7CVarArg", "applicationWillHide"]
+- ["Ps7CVarArg", "applicationWillResignActive"]
+- ["Ps7CVarArg", "applicationWillTerminate"]
+- ["Ps7CVarArg", "applicationWillUnhide"]
+- ["Ps7CVarArg", "applicationWillUpdate"]
+- !private ["Ps7CVarArg", "detachNewThreadSelector"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "mythread"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "removeMonitor"]
+- !private ["Ps7CVarArg", "windowNumber"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "AppClient"]
+- !private ["Ps28CustomDebugStringConvertible", "AppDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "CGWindowID"]
+- !private ["Ps28CustomDebugStringConvertible", "NSEvent"]
+- !private ["Ps28CustomDebugStringConvertible", "NSEventMask"]
+- !private ["Ps28CustomDebugStringConvertible", "Thread"]
+- !private ["Ps28CustomDebugStringConvertible", "addGlobalMonitorForEvents"]
+- ["Ps28CustomDebugStringConvertible", "application"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidChangeOcclusionState"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidChangeScreenParameters"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidHide"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidResignActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidUnhide"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidUpdate"]
+- ["Ps28CustomDebugStringConvertible", "applicationDockMenu"]
+- ["Ps28CustomDebugStringConvertible", "applicationOpenUntitledFile"]
+- ["Ps28CustomDebugStringConvertible", "applicationShouldHandleReopen"]
+- ["Ps28CustomDebugStringConvertible", "applicationShouldOpenUntitledFile"]
+- ["Ps28CustomDebugStringConvertible", "applicationShouldTerminate"]
+- ["Ps28CustomDebugStringConvertible", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillBecomeActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillFinishLaunching"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillHide"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillResignActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillTerminate"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillUnhide"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillUpdate"]
+- !private ["Ps28CustomDebugStringConvertible", "detachNewThreadSelector"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "mythread"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "removeMonitor"]
+- !private ["Ps28CustomDebugStringConvertible", "windowNumber"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "AppClient"]
+- !private ["Ps23CustomStringConvertible", "AppDelegate"]
+- !private ["Ps23CustomStringConvertible", "CGWindowID"]
+- !private ["Ps23CustomStringConvertible", "NSEvent"]
+- !private ["Ps23CustomStringConvertible", "NSEventMask"]
+- !private ["Ps23CustomStringConvertible", "Thread"]
+- !private ["Ps23CustomStringConvertible", "addGlobalMonitorForEvents"]
+- ["Ps23CustomStringConvertible", "application"]
+- ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
+- ["Ps23CustomStringConvertible", "applicationDidChangeOcclusionState"]
+- ["Ps23CustomStringConvertible", "applicationDidChangeScreenParameters"]
+- ["Ps23CustomStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps23CustomStringConvertible", "applicationDidHide"]
+- ["Ps23CustomStringConvertible", "applicationDidResignActive"]
+- ["Ps23CustomStringConvertible", "applicationDidUnhide"]
+- ["Ps23CustomStringConvertible", "applicationDidUpdate"]
+- ["Ps23CustomStringConvertible", "applicationDockMenu"]
+- ["Ps23CustomStringConvertible", "applicationOpenUntitledFile"]
+- ["Ps23CustomStringConvertible", "applicationShouldHandleReopen"]
+- ["Ps23CustomStringConvertible", "applicationShouldOpenUntitledFile"]
+- ["Ps23CustomStringConvertible", "applicationShouldTerminate"]
+- ["Ps23CustomStringConvertible", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["Ps23CustomStringConvertible", "applicationWillBecomeActive"]
+- ["Ps23CustomStringConvertible", "applicationWillFinishLaunching"]
+- ["Ps23CustomStringConvertible", "applicationWillHide"]
+- ["Ps23CustomStringConvertible", "applicationWillResignActive"]
+- ["Ps23CustomStringConvertible", "applicationWillTerminate"]
+- ["Ps23CustomStringConvertible", "applicationWillUnhide"]
+- ["Ps23CustomStringConvertible", "applicationWillUpdate"]
+- !private ["Ps23CustomStringConvertible", "detachNewThreadSelector"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "mythread"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "removeMonitor"]
+- !private ["Ps23CustomStringConvertible", "windowNumber"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "AppClient"]
+- !private ["Ps9Equatable", "AppDelegate"]
+- !private ["Ps9Equatable", "CGWindowID"]
+- !private ["Ps9Equatable", "NSEvent"]
+- !private ["Ps9Equatable", "NSEventMask"]
+- !private ["Ps9Equatable", "Thread"]
+- !private ["Ps9Equatable", "Tx"]
+- !private ["Ps9Equatable", "addGlobalMonitorForEvents"]
+- ["Ps9Equatable", "application"]
+- ["Ps9Equatable", "applicationDidBecomeActive"]
+- ["Ps9Equatable", "applicationDidChangeOcclusionState"]
+- ["Ps9Equatable", "applicationDidChangeScreenParameters"]
+- ["Ps9Equatable", "applicationDidFinishLaunching"]
+- ["Ps9Equatable", "applicationDidHide"]
+- ["Ps9Equatable", "applicationDidResignActive"]
+- ["Ps9Equatable", "applicationDidUnhide"]
+- ["Ps9Equatable", "applicationDidUpdate"]
+- ["Ps9Equatable", "applicationDockMenu"]
+- ["Ps9Equatable", "applicationOpenUntitledFile"]
+- ["Ps9Equatable", "applicationShouldHandleReopen"]
+- ["Ps9Equatable", "applicationShouldOpenUntitledFile"]
+- ["Ps9Equatable", "applicationShouldTerminate"]
+- ["Ps9Equatable", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["Ps9Equatable", "applicationWillBecomeActive"]
+- ["Ps9Equatable", "applicationWillFinishLaunching"]
+- ["Ps9Equatable", "applicationWillHide"]
+- ["Ps9Equatable", "applicationWillResignActive"]
+- ["Ps9Equatable", "applicationWillTerminate"]
+- ["Ps9Equatable", "applicationWillUnhide"]
+- ["Ps9Equatable", "applicationWillUpdate"]
+- !private ["Ps9Equatable", "detachNewThreadSelector"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "mythread"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "removeMonitor"]
+- !private ["Ps9Equatable", "rightMouseDown"]
+- !private ["Ps9Equatable", "windowNumber"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "rightMouseDown"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "AppClient"]
+- !private ["Ps8Hashable", "AppDelegate"]
+- !private ["Ps8Hashable", "CGWindowID"]
+- !private ["Ps8Hashable", "NSEvent"]
+- !private ["Ps8Hashable", "NSEventMask"]
+- !private ["Ps8Hashable", "Thread"]
+- !private ["Ps8Hashable", "Tx"]
+- !private ["Ps8Hashable", "addGlobalMonitorForEvents"]
+- ["Ps8Hashable", "application"]
+- ["Ps8Hashable", "applicationDidBecomeActive"]
+- ["Ps8Hashable", "applicationDidChangeOcclusionState"]
+- ["Ps8Hashable", "applicationDidChangeScreenParameters"]
+- ["Ps8Hashable", "applicationDidFinishLaunching"]
+- ["Ps8Hashable", "applicationDidHide"]
+- ["Ps8Hashable", "applicationDidResignActive"]
+- ["Ps8Hashable", "applicationDidUnhide"]
+- ["Ps8Hashable", "applicationDidUpdate"]
+- ["Ps8Hashable", "applicationDockMenu"]
+- ["Ps8Hashable", "applicationOpenUntitledFile"]
+- ["Ps8Hashable", "applicationShouldHandleReopen"]
+- ["Ps8Hashable", "applicationShouldOpenUntitledFile"]
+- ["Ps8Hashable", "applicationShouldTerminate"]
+- ["Ps8Hashable", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["Ps8Hashable", "applicationWillBecomeActive"]
+- ["Ps8Hashable", "applicationWillFinishLaunching"]
+- ["Ps8Hashable", "applicationWillHide"]
+- ["Ps8Hashable", "applicationWillResignActive"]
+- ["Ps8Hashable", "applicationWillTerminate"]
+- ["Ps8Hashable", "applicationWillUnhide"]
+- ["Ps8Hashable", "applicationWillUpdate"]
+- !private ["Ps8Hashable", "detachNewThreadSelector"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "mythread"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "removeMonitor"]
+- !private ["Ps8Hashable", "windowNumber"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo21NSApplicationDelegate", "AppClient"]
+- !private ["PSo21NSApplicationDelegate", "AppDelegate"]
+- !private ["PSo21NSApplicationDelegate", "CGWindowID"]
+- !private ["PSo21NSApplicationDelegate", "NSEvent"]
+- !private ["PSo21NSApplicationDelegate", "NSEventMask"]
+- !private ["PSo21NSApplicationDelegate", "Thread"]
+- ["PSo21NSApplicationDelegate", "application"]
+- ["PSo21NSApplicationDelegate", "applicationDidBecomeActive"]
+- ["PSo21NSApplicationDelegate", "applicationDidChangeOcclusionState"]
+- ["PSo21NSApplicationDelegate", "applicationDidChangeScreenParameters"]
+- ["PSo21NSApplicationDelegate", "applicationDidFinishLaunching"]
+- ["PSo21NSApplicationDelegate", "applicationDidHide"]
+- ["PSo21NSApplicationDelegate", "applicationDidResignActive"]
+- ["PSo21NSApplicationDelegate", "applicationDidUnhide"]
+- ["PSo21NSApplicationDelegate", "applicationDidUpdate"]
+- ["PSo21NSApplicationDelegate", "applicationDockMenu"]
+- ["PSo21NSApplicationDelegate", "applicationOpenUntitledFile"]
+- ["PSo21NSApplicationDelegate", "applicationShouldHandleReopen"]
+- ["PSo21NSApplicationDelegate", "applicationShouldOpenUntitledFile"]
+- ["PSo21NSApplicationDelegate", "applicationShouldTerminate"]
+- ["PSo21NSApplicationDelegate", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["PSo21NSApplicationDelegate", "applicationWillBecomeActive"]
+- ["PSo21NSApplicationDelegate", "applicationWillFinishLaunching"]
+- ["PSo21NSApplicationDelegate", "applicationWillHide"]
+- ["PSo21NSApplicationDelegate", "applicationWillResignActive"]
+- ["PSo21NSApplicationDelegate", "applicationWillTerminate"]
+- ["PSo21NSApplicationDelegate", "applicationWillUnhide"]
+- ["PSo21NSApplicationDelegate", "applicationWillUpdate"]
+- !private ["PSo21NSApplicationDelegate", "mythread"]
+- !private ["PSo21NSApplicationDelegate", "print"]
+- ["PSo21NSApplicationDelegate", ""]
+- !private ["PSo8NSCoding", "addGlobalMonitorForEvents"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "removeMonitor"]
+- !private ["PSo8NSCoding", "windowNumber"]
+- !private ["PSo9NSCopying", "addGlobalMonitorForEvents"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "removeMonitor"]
+- !private ["PSo9NSCopying", "windowNumber"]
+- !private ["CSo7NSEvent", "addGlobalMonitorForEvents"]
+- !private ["CSo7NSEvent", "deinit"]
+- !private ["CSo7NSEvent", "removeMonitor"]
+- !private ["CSo7NSEvent", "windowNumber"]
+- ["VSC11NSEventMask", "deinit"]
+- !private ["VSC11NSEventMask", "rightMouseDown"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "AppClient"]
+- !private ["CSo8NSObject", "AppDelegate"]
+- !private ["CSo8NSObject", "CGWindowID"]
+- !private ["CSo8NSObject", "NSEvent"]
+- !private ["CSo8NSObject", "NSEventMask"]
+- ["CSo8NSObject", "Notification"]
+- !private ["CSo8NSObject", "Thread"]
+- !private ["CSo8NSObject", "addGlobalMonitorForEvents"]
+- ["CSo8NSObject", "application"]
+- ["CSo8NSObject", "applicationDidBecomeActive"]
+- ["CSo8NSObject", "applicationDidChangeOcclusionState"]
+- ["CSo8NSObject", "applicationDidChangeScreenParameters"]
+- ["CSo8NSObject", "applicationDidFinishLaunching"]
+- ["CSo8NSObject", "applicationDidHide"]
+- ["CSo8NSObject", "applicationDidResignActive"]
+- ["CSo8NSObject", "applicationDidUnhide"]
+- ["CSo8NSObject", "applicationDidUpdate"]
+- ["CSo8NSObject", "applicationDockMenu"]
+- ["CSo8NSObject", "applicationOpenUntitledFile"]
+- ["CSo8NSObject", "applicationShouldHandleReopen"]
+- ["CSo8NSObject", "applicationShouldOpenUntitledFile"]
+- ["CSo8NSObject", "applicationShouldTerminate"]
+- ["CSo8NSObject", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["CSo8NSObject", "applicationWillBecomeActive"]
+- ["CSo8NSObject", "applicationWillFinishLaunching"]
+- ["CSo8NSObject", "applicationWillHide"]
+- ["CSo8NSObject", "applicationWillResignActive"]
+- ["CSo8NSObject", "applicationWillTerminate"]
+- ["CSo8NSObject", "applicationWillUnhide"]
+- ["CSo8NSObject", "applicationWillUpdate"]
+- ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "detachNewThreadSelector"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "mythread"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "removeMonitor"]
+- !private ["CSo8NSObject", "windowNumber"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "AppClient"]
+- !private ["PSo16NSObjectProtocol", "AppDelegate"]
+- !private ["PSo16NSObjectProtocol", "CGWindowID"]
+- !private ["PSo16NSObjectProtocol", "NSEvent"]
+- !private ["PSo16NSObjectProtocol", "NSEventMask"]
+- !private ["PSo16NSObjectProtocol", "Thread"]
+- !private ["PSo16NSObjectProtocol", "addGlobalMonitorForEvents"]
+- ["PSo16NSObjectProtocol", "application"]
+- ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationDidChangeOcclusionState"]
+- ["PSo16NSObjectProtocol", "applicationDidChangeScreenParameters"]
+- ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationDidHide"]
+- ["PSo16NSObjectProtocol", "applicationDidResignActive"]
+- ["PSo16NSObjectProtocol", "applicationDidUnhide"]
+- ["PSo16NSObjectProtocol", "applicationDidUpdate"]
+- ["PSo16NSObjectProtocol", "applicationDockMenu"]
+- ["PSo16NSObjectProtocol", "applicationOpenUntitledFile"]
+- ["PSo16NSObjectProtocol", "applicationShouldHandleReopen"]
+- ["PSo16NSObjectProtocol", "applicationShouldOpenUntitledFile"]
+- ["PSo16NSObjectProtocol", "applicationShouldTerminate"]
+- ["PSo16NSObjectProtocol", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["PSo16NSObjectProtocol", "applicationWillBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationWillFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationWillHide"]
+- ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- ["PSo16NSObjectProtocol", "applicationWillTerminate"]
+- ["PSo16NSObjectProtocol", "applicationWillUnhide"]
+- ["PSo16NSObjectProtocol", "applicationWillUpdate"]
+- !private ["PSo16NSObjectProtocol", "detachNewThreadSelector"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "mythread"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "removeMonitor"]
+- !private ["PSo16NSObjectProtocol", "windowNumber"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo19NSPasteboardReading", "init"]
+- !private ["PSo19NSPasteboardWriting", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps9OptionSet", "rightMouseDown"]
+- ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "rightMouseDown"]
+- !private ["V10ObjectiveC8Selector", "deinit"]
+- !private ["Ps10SetAlgebra", "rightMouseDown"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["CSo6Thread", "detachNewThreadSelector"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt32", "init"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps15UnsignedInteger", "init"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "AppClient"]
+- !private ["Ps9_Hashable", "AppDelegate"]
+- !private ["Ps9_Hashable", "CGWindowID"]
+- !private ["Ps9_Hashable", "NSEvent"]
+- !private ["Ps9_Hashable", "NSEventMask"]
+- !private ["Ps9_Hashable", "Thread"]
+- !private ["Ps9_Hashable", "Tx"]
+- !private ["Ps9_Hashable", "addGlobalMonitorForEvents"]
+- ["Ps9_Hashable", "application"]
+- ["Ps9_Hashable", "applicationDidBecomeActive"]
+- ["Ps9_Hashable", "applicationDidChangeOcclusionState"]
+- ["Ps9_Hashable", "applicationDidChangeScreenParameters"]
+- ["Ps9_Hashable", "applicationDidFinishLaunching"]
+- ["Ps9_Hashable", "applicationDidHide"]
+- ["Ps9_Hashable", "applicationDidResignActive"]
+- ["Ps9_Hashable", "applicationDidUnhide"]
+- ["Ps9_Hashable", "applicationDidUpdate"]
+- ["Ps9_Hashable", "applicationDockMenu"]
+- ["Ps9_Hashable", "applicationOpenUntitledFile"]
+- ["Ps9_Hashable", "applicationShouldHandleReopen"]
+- ["Ps9_Hashable", "applicationShouldOpenUntitledFile"]
+- ["Ps9_Hashable", "applicationShouldTerminate"]
+- ["Ps9_Hashable", "applicationShouldTerminateAfterLastWindowClosed"]
+- ["Ps9_Hashable", "applicationWillBecomeActive"]
+- ["Ps9_Hashable", "applicationWillFinishLaunching"]
+- ["Ps9_Hashable", "applicationWillHide"]
+- ["Ps9_Hashable", "applicationWillResignActive"]
+- ["Ps9_Hashable", "applicationWillTerminate"]
+- ["Ps9_Hashable", "applicationWillUnhide"]
+- ["Ps9_Hashable", "applicationWillUpdate"]
+- !private ["Ps9_Hashable", "detachNewThreadSelector"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "mythread"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "removeMonitor"]
+- !private ["Ps9_Hashable", "windowNumber"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "C9AppClient9AppClient"
+- !private "O9AppClient13AppClientType"
+- "C9AppClient11AppDelegate"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "PSo21NSApplicationDelegate"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSEvent"
+- "VSC11NSEventMask"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo19NSPasteboardReading"
+- !private "PSo19NSPasteboardWriting"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps9OptionSet"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- !private "V10ObjectiveC8Selector"
+- !private "Ps10SetAlgebra"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "CSo6Thread"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps15UnsignedInteger"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/Pawan/Development/SocketKit/SocketKit/build/Debug/SocketKitMacOS.framework/Modules/SocketKitMacOS.swiftmodule/x86_64.swiftmodule"
+- "/Users/Pawan/Development/SocketKit/SocketKit/build/Debug/SocketKitMacOS.framework/Versions/A/Headers/SocketKitMacOS-Swift.h"
+- "/Users/Pawan/Development/SocketKit/SocketKit/SocketKitMacOS/SocketKitMacOS.h"
+- "/Users/Pawan/Development/SocketKit/SocketKit/build/SocketKit.build/Debug/SocketKitMacOS.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+interface-hash: "213641ad15ff52eef2ca3f1e88222bce"

@@ -1,0 +1,11 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "52ce4f4cb5bb1d66802629933d9d5eb9"
+build_time: [552308166, 201072000]
+inputs:
+  "/Users/Pawan/Development/SocketKit/SocketKit/socketkit.swift": [551980441, 0]
+  "/Users/Pawan/Development/SocketKit/SocketKit/Source/Protocols/AcceptedClientSocket.swift": [551102379, 0]
+  "/Users/Pawan/Development/SocketKit/SocketKit/Source/SocketBase.swift": [552308166, 0]
+  "/Users/Pawan/Development/SocketKit/SocketKit/Source/Protocols/ServerSocketType.swift": [551989844, 0]
+  "/Users/Pawan/Development/SocketKit/SocketKit/Source/Protocols/IOCommandHeader.swift": [551985682, 0]
+  "/Users/Pawan/Development/SocketKit/SocketKit/Source/Protocols/BaseProtocolForSocket.swift": [551103467, 0]
+  "/Users/Pawan/Development/SocketKit/SocketKit/Source/Protocols/ClientSocketType.swift": [551989874, 0]

@@ -1,0 +1,53 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ClientSocketType"
+provides-nominal:
+- "P14SocketKitMacOS16ClientSocketType"
+provides-member:
+- ["P14SocketKitMacOS16ClientSocketType", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "BaseProtocolForSocket"
+- "ClientSocketType"
+- "UInt32"
+- "Data"
+- "Swift"
+depends-member:
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "Connect"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "Data"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "Swift"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "UInt32"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", "sartReceiveWith"]
+- ["P14SocketKitMacOS21BaseProtocolForSocket", ""]
+- ["P14SocketKitMacOS16ClientSocketType", "Connect"]
+- ["P14SocketKitMacOS16ClientSocketType", "Data"]
+- ["P14SocketKitMacOS16ClientSocketType", "Swift"]
+- ["P14SocketKitMacOS16ClientSocketType", "UInt32"]
+- ["P14SocketKitMacOS16ClientSocketType", "sartReceiveWith"]
+- ["P14SocketKitMacOS15IOCommandHeader", "Connect"]
+- ["P14SocketKitMacOS15IOCommandHeader", "Data"]
+- ["P14SocketKitMacOS15IOCommandHeader", "Swift"]
+- ["P14SocketKitMacOS15IOCommandHeader", "UInt32"]
+- ["P14SocketKitMacOS15IOCommandHeader", "sartReceiveWith"]
+depends-nominal:
+- "P14SocketKitMacOS21BaseProtocolForSocket"
+- "P14SocketKitMacOS16ClientSocketType"
+- "P14SocketKitMacOS15IOCommandHeader"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/Pawan/Development/SocketKit/SocketKit/SocketKitMacOS/SocketKitMacOS.h"
+- "/Users/Pawan/Development/SocketKit/SocketKit/build/SocketKit.build/Debug/SocketKitMacOS.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "5e6823ae2b3d5ccd5624f56cb5b135a5"
